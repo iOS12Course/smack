@@ -15,6 +15,7 @@
 		F6DF5F6221E8406100311B68 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF5F6121E8406100311B68 /* ChatVC.swift */; };
 		F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF5F6321E8407100311B68 /* ChannelVC.swift */; };
 		F6DF5F6F21E8441B00311B68 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DF5F6E21E8441B00311B68 /* SWRevealViewController.m */; };
+		F6DF5F7121EBCF7700311B68 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF5F7021EBCF7700311B68 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F6DF5F6C21E8441A00311B68 /* smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		F6DF5F6D21E8441B00311B68 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		F6DF5F6E21E8441B00311B68 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F6DF5F7021EBCF7700311B68 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		F6DF5F5F21E8403700311B68 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F6DF5F7021EBCF7700311B68 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */,
 				F6DF5F6221E8406100311B68 /* ChatVC.swift in Sources */,
+				F6DF5F7121EBCF7700311B68 /* GradientView.swift in Sources */,
 				F6DF5F4821E836FA00311B68 /* AppDelegate.swift in Sources */,
 				F6DF5F6F21E8441B00311B68 /* SWRevealViewController.m in Sources */,
 			);
