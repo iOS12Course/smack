@@ -24,6 +24,7 @@
 		F6DF5F7121EBCF7700311B68 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DF5F7021EBCF7700311B68 /* GradientView.swift */; };
 		F6E7DC2921F6C16400EF727F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC2821F6C16400EF727F /* AvatarPickerVC.swift */; };
 		F6E7DC2B21F6C2F000EF727F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC2A21F6C2F000EF727F /* AvatarCell.swift */; };
+		F6E7DC2D21F80DC500EF727F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC2C21F80DC500EF727F /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F6DF5F7021EBCF7700311B68 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F6E7DC2821F6C16400EF727F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		F6E7DC2A21F6C2F000EF727F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		F6E7DC2C21F80DC500EF727F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				F6DF5F7021EBCF7700311B68 /* GradientView.swift */,
 				F6BCF9F521F031F500513BFC /* RoundedButton.swift */,
 				F6E7DC2A21F6C2F000EF727F /* AvatarCell.swift */,
+				F6E7DC2C21F80DC500EF727F /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */,
 				F6E7DC2921F6C16400EF727F /* AvatarPickerVC.swift in Sources */,
 				F6BCF9F621F031F500513BFC /* RoundedButton.swift in Sources */,
+				F6E7DC2D21F80DC500EF727F /* CircleImage.swift in Sources */,
 				F6DF5F6221E8406100311B68 /* ChatVC.swift in Sources */,
 				F6BCF9F921F1775400513BFC /* UserDataService.swift in Sources */,
 				F6BCF9F121EED1D300513BFC /* CreateAccountVC.swift in Sources */,
