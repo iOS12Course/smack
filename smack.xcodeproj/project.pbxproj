@@ -27,6 +27,8 @@
 		F6E7DC2D21F80DC500EF727F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC2C21F80DC500EF727F /* CircleImage.swift */; };
 		F6E7DC3021FE9F3A00EF727F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC2E21FE9F3A00EF727F /* ProfileVC.swift */; };
 		F6E7DC3121FE9F3A00EF727F /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E7DC2F21FE9F3A00EF727F /* ProfileVC.xib */; };
+		F6E7DC3422012E5B00EF727F /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC3322012E5B00EF727F /* MessageService.swift */; };
+		F6E7DC3622012E8900EF727F /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC3522012E8900EF727F /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		F6E7DC2C21F80DC500EF727F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F6E7DC2E21FE9F3A00EF727F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		F6E7DC2F21FE9F3A00EF727F /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		F6E7DC3322012E5B00EF727F /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		F6E7DC3522012E8900EF727F /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				F6BCF9F321F029A600513BFC /* AuthService.swift */,
 				F6BCF9F821F1775400513BFC /* UserDataService.swift */,
+				F6E7DC3322012E5B00EF727F /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 		F6DF5F6021E8403E00311B68 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F6E7DC3522012E8900EF727F /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -314,7 +320,9 @@
 				F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */,
 				F6E7DC2921F6C16400EF727F /* AvatarPickerVC.swift in Sources */,
 				F6BCF9F621F031F500513BFC /* RoundedButton.swift in Sources */,
+				F6E7DC3622012E8900EF727F /* Channel.swift in Sources */,
 				F6E7DC2D21F80DC500EF727F /* CircleImage.swift in Sources */,
+				F6E7DC3422012E5B00EF727F /* MessageService.swift in Sources */,
 				F6DF5F6221E8406100311B68 /* ChatVC.swift in Sources */,
 				F6BCF9F921F1775400513BFC /* UserDataService.swift in Sources */,
 				F6BCF9F121EED1D300513BFC /* CreateAccountVC.swift in Sources */,
