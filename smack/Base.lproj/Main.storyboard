@@ -79,6 +79,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="channelNameLbl" destination="lYS-22-32X" id="QqW-1O-jQP"/>
                         <outlet property="menuBtn" destination="gX5-2H-rCV" id="Gma-cj-Bas"/>
                     </connections>
                 </viewController>
