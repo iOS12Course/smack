@@ -34,6 +34,7 @@
 		F6E7DC402201370400EF727F /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E7DC3E2201370400EF727F /* AddChannelVC.xib */; };
 		F6E7DC422203D4D400EF727F /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC412203D4D400EF727F /* SocketService.swift */; };
 		F6E7DC442206539600EF727F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC432206539600EF727F /* Message.swift */; };
+		F6E7DC4622065B3900EF727F /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC4522065B3900EF727F /* KeyboardBoundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		F6E7DC3E2201370400EF727F /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		F6E7DC412203D4D400EF727F /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		F6E7DC432206539600EF727F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F6E7DC4522065B3900EF727F /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 		F6DF5F5F21E8403700311B68 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F6E7DC4522065B3900EF727F /* KeyboardBoundView.swift */,
 				F6DF5F7021EBCF7700311B68 /* GradientView.swift */,
 				F6BCF9F521F031F500513BFC /* RoundedButton.swift */,
 				F6E7DC2A21F6C2F000EF727F /* AvatarCell.swift */,
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E7DC4622065B3900EF727F /* KeyboardBoundView.swift in Sources */,
 				F6E7DC422203D4D400EF727F /* SocketService.swift in Sources */,
 				F6E7DC3021FE9F3A00EF727F /* ProfileVC.swift in Sources */,
 				F6E7DC382201335200EF727F /* ChannelCell.swift in Sources */,

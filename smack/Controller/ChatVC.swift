@@ -14,10 +14,14 @@ class ChatVC: UIViewController {
     //MArk: - Outlets
     @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var channelNameLbl: UILabel!
+    @IBOutlet weak var messageTxtBox: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.bindToKeyboard()
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ChatVC.handleTap))
+        view.addGestureRecognizer(tap)
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
         self.view.addGestureRecognizer((self.revealViewController()?.tapGestureRecognizer())!)
@@ -40,18 +44,22 @@ class ChatVC: UIViewController {
         updateWithChannel()
     }
     
-    func updateWithChannel() {
-        let channelName = MessageService.instance.selectedChannel?.channelTitle ?? ""
-        channelNameLbl.text = "#\(channelName)"
-        getMessages()
-    }
-    
     @objc func userDataDidChanged(_ notif: Notification) {
         if AuthService.instance.isLoggedIn {
             onLoginGetMessages()
         } else {
             channelNameLbl.text = "Please Log In"
         }
+    }
+    
+    @objc func handleTap() {
+        view.endEditing(true)
+    }
+    
+    func updateWithChannel() {
+        let channelName = MessageService.instance.selectedChannel?.channelTitle ?? ""
+        channelNameLbl.text = "#\(channelName)"
+        getMessages()
     }
     
     func onLoginGetMessages() {
@@ -75,4 +83,19 @@ class ChatVC: UIViewController {
         
     }
 
+    @IBAction func sendMessagePressed(_ sender: Any) {
+        if AuthService.instance.isLoggedIn {
+            guard let channelId = MessageService.instance.selectedChannel?.id else { return }
+            guard let message = messageTxtBox.text else { return }
+            
+            SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId) { (success) in
+                
+                if success {
+                    self.messageTxtBox.text = ""
+                    self.messageTxtBox.resignFirstResponder()
+                }
+            }
+            
+        }
+    }
 }
