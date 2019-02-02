@@ -33,6 +33,7 @@
 		F6E7DC3F2201370400EF727F /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC3D2201370400EF727F /* AddChannelVC.swift */; };
 		F6E7DC402201370400EF727F /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6E7DC3E2201370400EF727F /* AddChannelVC.xib */; };
 		F6E7DC422203D4D400EF727F /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC412203D4D400EF727F /* SocketService.swift */; };
+		F6E7DC442206539600EF727F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC432206539600EF727F /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		F6E7DC3D2201370400EF727F /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		F6E7DC3E2201370400EF727F /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
 		F6E7DC412203D4D400EF727F /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		F6E7DC432206539600EF727F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				F6E7DC3522012E8900EF727F /* Channel.swift */,
+				F6E7DC432206539600EF727F /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */,
 				F6E7DC2921F6C16400EF727F /* AvatarPickerVC.swift in Sources */,
 				F6BCF9F621F031F500513BFC /* RoundedButton.swift in Sources */,
+				F6E7DC442206539600EF727F /* Message.swift in Sources */,
 				F6E7DC3622012E8900EF727F /* Channel.swift in Sources */,
 				F6E7DC2D21F80DC500EF727F /* CircleImage.swift in Sources */,
 				F6E7DC3422012E5B00EF727F /* MessageService.swift in Sources */,
