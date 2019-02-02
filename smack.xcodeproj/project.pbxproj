@@ -35,6 +35,7 @@
 		F6E7DC422203D4D400EF727F /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC412203D4D400EF727F /* SocketService.swift */; };
 		F6E7DC442206539600EF727F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC432206539600EF727F /* Message.swift */; };
 		F6E7DC4622065B3900EF727F /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC4522065B3900EF727F /* KeyboardBoundView.swift */; };
+		F6E7DC4822065F6400EF727F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E7DC4722065F6400EF727F /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		F6E7DC412203D4D400EF727F /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		F6E7DC432206539600EF727F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		F6E7DC4522065B3900EF727F /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
+		F6E7DC4722065F6400EF727F /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				F6E7DC2A21F6C2F000EF727F /* AvatarCell.swift */,
 				F6E7DC2C21F80DC500EF727F /* CircleImage.swift */,
 				F6E7DC372201335200EF727F /* ChannelCell.swift */,
+				F6E7DC4722065F6400EF727F /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				F6E7DC382201335200EF727F /* ChannelCell.swift in Sources */,
 				F6DF5F6421E8407100311B68 /* ChannelVC.swift in Sources */,
 				F6E7DC2921F6C16400EF727F /* AvatarPickerVC.swift in Sources */,
+				F6E7DC4822065F6400EF727F /* MessageCell.swift in Sources */,
 				F6BCF9F621F031F500513BFC /* RoundedButton.swift in Sources */,
 				F6E7DC442206539600EF727F /* Message.swift in Sources */,
 				F6E7DC3622012E8900EF727F /* Channel.swift in Sources */,
